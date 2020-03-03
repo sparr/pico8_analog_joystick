@@ -1,9 +1,13 @@
+# PICO-8 Analog Joystick
+
 This script will take input from one analog gamepad/joystick and present it to PICO-8 as binary d-pad input from 8 virtual controllers.
-The matching lua function will then decode this into analog input.
+The matching lua function will then decode this into analog input within your pico8 cartridge.
+
+![animation of analog movement on screen](https://github.com/sparr/pico8_analog_joystick/blob/master/pico8_analog_joystick.gif?raw=true)
 
 ## Usage
 
-* Drop [pico8_analog_joustick.js](https://raw.githubusercontent.com/sparr/pico8_analog_joystick/master/pico8_analog_joystick.js) in the same directory with your game's HTML and JS.
+* Drop [pico8_analog_joystick.js](https://raw.githubusercontent.com/sparr/pico8_analog_joystick/master/pico8_analog_joystick.js) in the same directory with your game's HTML and JS.
 * In your HTML file, add the following, right before the first `<script type="text/javascript">` tag:
 
 ```
