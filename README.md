@@ -10,7 +10,7 @@ The matching lua function will then decode this into analog input.
   <script src="pico8_analog_joystick.js"></script>
 ```
 
-* In your p8 cart, copy the [`abtn`](https://raw.githubusercontent.com/sparr/pico8_analog_joystick/master/pico8_analog_joystick.p8) function, the use it in place of `btn` to get analog values from 0 to 1 instead of boolean false/true.
+* In your p8 cart, copy the [`abtn`](https://github.com/sparr/pico8_analog_joystick/blob/master/pico8_analog_joystick.p8#L7-L17) function, then use it in place of `btn` to get analog values from 0 to 1 instead of boolean false/true.
 
 ## Configuration
 
