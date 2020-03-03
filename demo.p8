@@ -8,7 +8,7 @@ __lua__
 -- abtn(4) and abtn(5) poll x and o for player 1
 -- abtn(0) through abtn(3) return an analog value 0.0-1.0
 local function abtn(i)
- if (i>3) return btn(i)
+ if (i > 3) return btn(i)
  local val = 0
  for p = 0, 7 do
   val = val + shr(btn(i, p) and 1 or 0,p)
@@ -25,8 +25,8 @@ function _draw()
  print("-y:" .. tostr(abtn(2)))
  print("+y:" .. tostr(abtn(3)))
  color(7)
- rect(14,14,114,114)
- circfill(64-abtn(0)*50+abtn(1)*50,64-abtn(2)*50+abtn(3)*50,4)
+ rect(14, 14, 114, 114)
+ circfill(64 - abtn(0) * 50 + abtn(1) * 50, 64 - abtn(2) * 50 + abtn(3) * 50, 4)
 end
 __gfx__
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

@@ -26,6 +26,7 @@ If you like, you can edit the configuration at the top of `pico8_analog_joustick
 ## License: zlib license
 
 Copyright (c) 2020 Clarence "Sparr" Risher
+
 Copyright (c) 2016 Jakub Wasilewski
 
 This software is provided 'as-is', without any express or implied
